@@ -11,6 +11,9 @@
   .attribution-card {
     @apply bg-eggshell aspect-square w-full shadow-2xl rounded-[80px] p-5 relative text-black flex justify-center items-center transition-all duration-300 hover:-mt-5;
   }
+  .attribution-text {
+    @apply absolute anchor-center top-1/2 left-1/2 text-7xl text-black bg-eggshell p-2 rounded-xl font-semibold text-center  transition-all duration-300;
+  }
 }
 
 @utility text-10xl {
