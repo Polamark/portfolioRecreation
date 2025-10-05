@@ -25,7 +25,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/fonts.css",
+              "src/tailwind.css",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
             ]
           },
           "configurations": {

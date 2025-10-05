@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-eggshell: rgb(247, 246, 241);
+}
+
+@utility anchor-center {
+  transform: translate(-50%, -50%);
+}
