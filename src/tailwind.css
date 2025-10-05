@@ -4,6 +4,38 @@
   --color-eggshell: rgb(247, 246, 241);
 }
 
+@layer components {
+  .contact-button {
+    @apply text-black font-normal flex flex-none items-center justify-center rounded-full w-11.5 -mr-2 aspect-square border-2 border-black hover:bg-black hover:text-eggshell hover:cursor-pointer;
+  }
+  .attribution-card {
+    @apply bg-eggshell aspect-square w-full shadow-2xl rounded-[80px] p-5 relative text-black flex justify-center items-center transition-all duration-300 hover:-mt-5;
+  }
+}
+
+@utility text-10xl {
+  font-size: 10rem;
+  line-height: 1;
+}
+@utility text-11xl {
+  font-size: 12rem;
+  line-height: 1;
+}
+
 @utility anchor-center {
   transform: translate(-50%, -50%);
 }
+
+@utility anchor-center-x {
+  transform: translate(-50%, 0);
+}
+
+@utility anchor-center-y {
+  transform: translate(0, -50%);
+}
+
+@utility jumbotron-image-color {
+  @apply bg-amber-500
+}
+
+
