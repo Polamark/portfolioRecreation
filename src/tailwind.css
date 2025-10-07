@@ -6,7 +6,7 @@
 
 @layer components {
   .contact-button {
-    @apply text-black font-normal flex flex-none items-center justify-center rounded-full w-11.5 -mr-2 aspect-square border-2 border-black hover:bg-black hover:text-eggshell hover:cursor-pointer;
+    @apply text-black font-normal flex flex-none items-center justify-center rounded-full text-2xl w-15.5 -mr-2 aspect-square border-2 border-black hover:bg-black hover:text-eggshell hover:cursor-pointer;
   }
   .attribution-card {
     @apply bg-eggshell aspect-square w-full shadow-2xl rounded-[80px] p-5 relative text-black flex justify-center items-center transition-all duration-300 hover:-mt-5;
@@ -38,7 +38,7 @@
 }
 
 @utility jumbotron-image-color {
-  @apply bg-amber-500
+  @apply bg-amber-500;
 }
 
 
