@@ -38,7 +38,8 @@
 }
 
 @utility jumbotron-image-color {
-  @apply bg-amber-500;
+  /*background: linear-gradient(to right, #f4b553, #ed9b22);*/
+  background: #ed9b22;
 }
 
 
